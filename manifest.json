@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "NYAN NYAN NYAN!!!",
+  "description": "This extension allows you to Nyan.",
+  "version": "1.0",
+
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_icon": "nyan.png"
+  },
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
+
+
+
+
